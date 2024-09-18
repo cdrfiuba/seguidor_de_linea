@@ -8,6 +8,15 @@ https://tecnopatafisica.com/tecno3eso/teoria/robotica/105-arduino-robot-siguelin
 
 https://www.taloselectronics.com/blogs/tutoriales/robot-seguidor-de-linea-para-arduino-codigo
 
+Referencia de internet
+![](./img/image3.jpg)
+
+Un seguidor de línea del LABI
+![](./img/image2.jpg) ![](./img/image1.jpg)
+
+Otro más
+![](./img/image4.jpg) ![](./img/image5.jpg)
+
 
 ## Código
 
