@@ -38,3 +38,6 @@ Boceto de la estructura del proyecto
  - Indicador luminoso (fijo o intermitente) que muestra cuando el robot inicia a correr.
  - Ruedas sin adherentes
 
+## TODOs
+ - Rediseñar la placa de sensores
+ - más...
