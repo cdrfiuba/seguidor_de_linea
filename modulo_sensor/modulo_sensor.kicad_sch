@@ -1989,6 +1989,12 @@
 		(uuid "5aa45267-83e1-4187-a659-ab5033228771")
 	)
 	(junction
+		(at 118.11 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c6254b6-3037-4d28-b72b-16e87a33ed3a")
+	)
+	(junction
 		(at 170.18 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1999,12 +2005,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68a161ef-9f90-4e60-be1f-80e42b068991")
-	)
-	(junction
-		(at 125.73 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "776bec80-44d4-4373-a286-333ef5c8d62b")
 	)
 	(junction
 		(at 80.01 64.77)
@@ -2404,16 +2404,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 152.4) (xy 125.73 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e02155e-21f9-4168-8863-90511fc633ff")
-	)
-	(wire
-		(pts
 			(xy 45.72 43.18) (xy 48.26 43.18)
 		)
 		(stroke
@@ -2444,6 +2434,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 152.4) (xy 125.73 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408cd3c0-c27c-4859-b840-f5b93476216e")
+	)
+	(wire
+		(pts
 			(xy 120.65 152.4) (xy 120.65 156.21)
 		)
 		(stroke
@@ -2451,6 +2451,16 @@
 			(type default)
 		)
 		(uuid "43124a9c-0396-4ba1-88dc-362b6cf16100")
+	)
+	(wire
+		(pts
+			(xy 118.11 138.43) (xy 118.11 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f53daa-3f56-4d2b-835b-b9440853e6a2")
 	)
 	(wire
 		(pts
@@ -2464,7 +2474,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 152.4) (xy 130.81 152.4)
+			(xy 118.11 138.43) (xy 123.19 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2824,7 +2834,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 147.32) (xy 125.73 152.4)
+			(xy 118.11 133.35) (xy 118.11 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2984,16 +2994,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 152.4) (xy 118.11 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4ae8b25-b14c-4187-a2e0-94234742cacd")
-	)
-	(wire
-		(pts
 			(xy 170.18 43.18) (xy 172.72 43.18)
 		)
 		(stroke
@@ -3074,7 +3074,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 147.32) (xy 125.73 147.32)
+			(xy 123.19 133.35) (xy 118.11 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3455,8 +3455,8 @@
 		)
 		(uuid "253e69d3-0295-4a34-a659-d23cbb8ad291")
 	)
-	(label "Led_Sensor1"
-		(at 123.19 152.4 90)
+	(label "Led_Sensor4"
+		(at 107.95 152.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3466,7 +3466,7 @@
 		)
 		(uuid "26133e79-685e-4df8-9c41-2b769270e5e6")
 	)
-	(label "Led_Sensor1"
+	(label "Led_Sensor6"
 		(at 82.55 118.11 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3477,7 +3477,7 @@
 		)
 		(uuid "270eebe8-e4ba-4498-b6ae-2c35992cb69a")
 	)
-	(label "Led_Sensor3"
+	(label "Led_Sensor1"
 		(at 82.55 113.03 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3499,7 +3499,7 @@
 		)
 		(uuid "2ba4a8d4-294a-4725-9e35-8a26a52567f3")
 	)
-	(label "Led_Sensor6"
+	(label "Led_Sensor4"
 		(at 82.55 105.41 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3510,7 +3510,7 @@
 		)
 		(uuid "2bb9c55e-ca1b-461c-8dee-680dd3bffb16")
 	)
-	(label "Sensor3"
+	(label "Sensor1"
 		(at 34.29 118.11 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3521,7 +3521,7 @@
 		)
 		(uuid "2e62dc8a-ad0b-4a6f-ac74-10bb2290986c")
 	)
-	(label "Sensor6"
+	(label "Sensor4"
 		(at 34.29 110.49 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3532,8 +3532,8 @@
 		)
 		(uuid "34bfdd92-c464-40a3-9e05-828a9029f956")
 	)
-	(label "Led_Sensor3"
-		(at 118.11 152.4 90)
+	(label "Led_Sensor2"
+		(at 113.03 152.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3543,7 +3543,7 @@
 		)
 		(uuid "3a24f746-991b-485d-ad5d-d11cc2f899d4")
 	)
-	(label "Sensor1"
+	(label "Sensor6"
 		(at 34.29 123.19 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3576,7 +3576,7 @@
 		)
 		(uuid "6154ec60-9af6-4c8f-85ae-e0596810d980")
 	)
-	(label "Sensor4"
+	(label "Sensor2"
 		(at 34.29 115.57 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3588,7 +3588,7 @@
 		(uuid "619df644-bd42-496f-a3c9-66175b8b0938")
 	)
 	(label "Led_Sensor5"
-		(at 110.49 152.4 90)
+		(at 123.19 152.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3598,8 +3598,8 @@
 		)
 		(uuid "7b14d9e2-0497-4bab-87af-0251721ed3ea")
 	)
-	(label "Led_Sensor2"
-		(at 120.65 152.4 90)
+	(label "Led_Sensor3"
+		(at 110.49 152.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3609,7 +3609,7 @@
 		)
 		(uuid "81cce76d-aa00-47ac-ab56-911b3d9a8a15")
 	)
-	(label "Led_Sensor4"
+	(label "Led_Sensor2"
 		(at 82.55 110.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3632,7 +3632,7 @@
 		(uuid "8e6d1a96-f957-455e-bb4c-95b03754b175")
 	)
 	(label "Led_Sensor6"
-		(at 107.95 152.4 90)
+		(at 125.73 152.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3653,8 +3653,8 @@
 		)
 		(uuid "a4a0c3f3-1c87-44c7-98ae-7b5495ad6b1b")
 	)
-	(label "Led_Sensor4"
-		(at 113.03 152.4 90)
+	(label "Led_Sensor1"
+		(at 120.65 152.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3686,7 +3686,7 @@
 		)
 		(uuid "b2f7a7e2-2bed-4bd7-8e1e-0cf0747ae1db")
 	)
-	(label "Sensor5"
+	(label "Sensor3"
 		(at 34.29 113.03 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3697,7 +3697,7 @@
 		)
 		(uuid "beaae1c0-a2bd-477b-8fd4-f4733c0f3010")
 	)
-	(label "Led_Sensor5"
+	(label "Led_Sensor3"
 		(at 82.55 107.95 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3708,7 +3708,7 @@
 		)
 		(uuid "cecead92-de1f-4f7c-99e6-aa4c4970bb5e")
 	)
-	(label "Sensor2"
+	(label "Sensor5"
 		(at 34.29 120.65 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3730,7 +3730,7 @@
 		)
 		(uuid "e19c60b0-dccf-4f70-847e-c5d87a7025d2")
 	)
-	(label "Led_Sensor2"
+	(label "Led_Sensor5"
 		(at 82.55 115.57 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3776,7 +3776,7 @@
 	)
 	(global_label "vcc"
 		(shape input)
-		(at 130.81 152.4 0)
+		(at 123.19 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3786,7 +3786,7 @@
 		)
 		(uuid "7624ae81-7f0d-4a0d-8ac0-6b86578d3c5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.94 152.4 0)
+			(at 129.32 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7537,7 +7537,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 130.81 147.32 270)
+		(at 123.19 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7545,7 +7545,7 @@
 		(dnp no)
 		(uuid "da0e4f9b-1006-4f6e-9f85-4f928331b08f")
 		(property "Reference" "#FLG02"
-			(at 132.715 147.32 0)
+			(at 125.095 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7554,7 +7554,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 134.62 147.3199 90)
+			(at 127 133.3499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7563,7 +7563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 147.32 0)
+			(at 123.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7572,7 +7572,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 147.32 0)
+			(at 123.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7581,7 +7581,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 130.81 147.32 0)
+			(at 123.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
