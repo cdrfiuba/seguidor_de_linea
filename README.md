@@ -39,7 +39,7 @@ Boceto de la estructura del proyecto
  - Ruedas sin adherentes
 
 ## TODOs
- - Rediseñar la placa de sensores (corregir errores) y mandar al lci
+ - ~~Rediseñar la placa de sensores (corregir errores) y mandar al lci~~
  - Puente H
  - Arduino Nano o ATmega328 y programarlo
  - Comprar Placa Experimental
