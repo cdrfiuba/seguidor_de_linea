@@ -11,7 +11,7 @@ Vista previa de la PCB desde abajo
 
 ## TODOs
 En orden de prioridad
-- Automatizar exportar los archivos de fabricación
+- ~~Automatizar exportar los archivos de fabricación~~
 - El script debe exportar a PDF ambos lados en la misma hoja conservando las dimensiones para imprimir el circuito.
 - Exportar a otros formatos (SVG, STEP, etc)
 - Agregar alguna compatibilidad para Windows(?
