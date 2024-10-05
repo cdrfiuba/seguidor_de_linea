@@ -152,7 +152,7 @@
 		(descr "Through hole angled pin header, 1x08, 1.27mm pitch, 4.0mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x08 1.27mm single row")
 		(property "Reference" "J1"
-			(at -0.435 -1.65 90)
+			(at -1.75 -0.190017 90)
 			(layer "F.SilkS")
 			(uuid "20424d22-a2b8-409b-bd30-ec65200e6aec")
 			(effects
@@ -163,7 +163,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Pin"
-			(at -2.795 4.47 0)
+			(at -3.5 4.47 0)
 			(layer "F.Fab")
 			(uuid "2138bdae-6534-4e6e-b670-8345c361bb7e")
 			(effects
@@ -4252,7 +4252,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u1"
 			(at 1.25 2.05 90)
 			(layer "F.Fab")
 			(uuid "26c72619-5163-4bd9-abee-64ab287d80c4")
