@@ -3975,7 +3975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
 			(at 77.1652 111.76 0)
 			(effects
 				(font
@@ -4445,7 +4445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 133.35 62.23 0)
 			(effects
 				(font
@@ -4579,7 +4579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 196.85 130.81 0)
 			(effects
 				(font
@@ -4849,7 +4849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 171.45 130.81 0)
 			(effects
 				(font
@@ -4989,7 +4989,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Harwin:Harwin_M20-89008xx_1x08_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal"
 			(at 237.49 91.44 0)
 			(effects
 				(font
@@ -5078,7 +5078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 125.984 67.564 90)
 			(effects
 				(font
@@ -5487,7 +5487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 107.696 123.444 90)
 			(effects
 				(font
@@ -5623,7 +5623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
 			(at 73.3552 72.39 0)
 			(effects
 				(font
