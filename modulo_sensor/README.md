@@ -1,13 +1,17 @@
-## Modulo de sensores
+# Modulo de sensores
+
+Este módulo se encarga de la lectura de la línea.
+
+[comment]: Hacer_alguna_descripción_más
+
 
 Vista previa de la PCB desde arriba
 
-[comment]: ![](./preview.svg=x250)
-<img src="./exports/front_preview.svg" width=100%>
+<img src="exports/front_preview.svg" width=100%>
 
 Vista previa de la PCB desde abajo
 
-<img src="./exports/bottom_preview.svg" width=100%>
+<img src="exports/bottom_preview.svg" width=100%>
 
 ## TODOs
 En orden de prioridad
