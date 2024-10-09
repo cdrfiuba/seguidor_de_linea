@@ -4,6 +4,12 @@
 EXPORT_DIRECTORY=exports
 FABRICATION_DIRECTORY=fabrication
 
+print_help() {
+  echo "Uso: ./export.sh [-f]
+
+  El argumento -f es opcional e indica exportar los archivos .grb y .drl."
+}
+
 export_svg() {
   # Exporto a SVG y cambio dentro de los archivos la opacidad de las zonas rellenas
   kicad-cli pcb export svg\
@@ -46,11 +52,21 @@ export_grb(){
     modulo_sensor.kicad_pcb
 }
 
-echo "Exportando SVG..."
+# Checkeo argumentos
+if [[ $# -ne 0 && $1 == @(-h|--help) ]]; then
+	print_help
+	exit 0
+elif [[ $# -ne 0 && !($1 == @(-h|--help|-f)) ]]; then 
+  print_help
+  exit 1
+fi
+
+# Ejecuto el script
+printf "Exportando SVG..........................................\n"
 export_svg
 
-if [ $# -ne 0 ] && [  $1 == "-f" ]; then
-	echo "Exportando .drl y .grb ..."
+if [ $# -ne 0 ] && [ $1 == "-f" ]; then
+	printf "\nExportando .drl y .grb .................................\n"
 	export_drl
 	export_grb
 fi
