@@ -1,8 +1,8 @@
 ## Script para exportar la placa a distintos formatos
 ## .grb .drl .svg
+
 EXPORT_DIRECTORY=exports
 FABRICATION_DIRECTORY=fabrication
-
 
 export_svg() {
   # Exporto a SVG y cambio dentro de los archivos la opacidad de las zonas rellenas
@@ -49,7 +49,8 @@ export_grb(){
 echo "Exportando SVG..."
 export_svg
 
-
-echo "Exportando .drl y .grb ..."
-export_drl
-export_grb
+if [ $# -ne 0 ] && [  $1 == "-f" ]; then
+	echo "Exportando .drl y .grb ..."
+	export_drl
+	export_grb
+fi
