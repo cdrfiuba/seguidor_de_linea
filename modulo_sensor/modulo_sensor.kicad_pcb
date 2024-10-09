@@ -10641,6 +10641,18 @@
 		(layer "Edge.Cuts")
 		(uuid "a4cccce8-3607-4c0d-af84-bedfb10a2d2f")
 	)
+	(gr_text "LED D6 está al révés"
+		(at 126.5 80.5 0)
+		(layer "Cmts.User")
+		(uuid "cfb207cb-b08b-4fc2-913d-e1a4041a05ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(dimension
 		(type aligned)
 		(layer "Dwgs.User")
@@ -10977,14 +10989,6 @@
 		(uuid "413b13e2-76b7-487e-a80d-e1a7b9ede358")
 	)
 	(segment
-		(start 129.609983 59.3)
-		(end 128.309983 58)
-		(width 0.7)
-		(layer "B.Cu")
-		(net 1)
-		(uuid "430825e8-d344-4763-8faa-6ed4b175fd8d")
-	)
-	(segment
 		(start 129.609983 60)
 		(end 132 60)
 		(width 0.7)
@@ -10999,14 +11003,6 @@
 		(layer "B.Cu")
 		(net 1)
 		(uuid "4af79d43-7c1d-4adc-8a1e-614500ac40b3")
-	)
-	(segment
-		(start 128.309983 58)
-		(end 116 58)
-		(width 0.7)
-		(layer "B.Cu")
-		(net 1)
-		(uuid "4e714ffe-35a1-410a-9cb5-4328ff47110a")
 	)
 	(segment
 		(start 132 58.5)
@@ -11033,6 +11029,14 @@
 		(uuid "79c9a5ab-6249-4bee-b57e-c5f437b01d37")
 	)
 	(segment
+		(start 129.609983 60)
+		(end 129.609983 58.859983)
+		(width 0.7)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "7be0893f-fe96-4245-9392-0f5c263dc455")
+	)
+	(segment
 		(start 97.609983 60)
 		(end 97.609983 59.99099)
 		(width 0.7)
@@ -11055,6 +11059,14 @@
 		(layer "B.Cu")
 		(net 1)
 		(uuid "8ae9ad5d-f3be-4161-8887-fc435c64b73f")
+	)
+	(segment
+		(start 129.609983 58.859983)
+		(end 128.75 58)
+		(width 0.7)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "8f8298e9-a972-4d32-917a-42031a849ebc")
 	)
 	(segment
 		(start 133 57.5)
@@ -11097,6 +11109,14 @@
 		(uuid "a90785ea-cece-40cf-86f5-b0a30607836b")
 	)
 	(segment
+		(start 128.75 58)
+		(end 116 58)
+		(width 0.7)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "aaa1bdca-28d9-47b3-b194-2f75929ee594")
+	)
+	(segment
 		(start 113.609983 60)
 		(end 114 60)
 		(width 0.7)
@@ -11111,14 +11131,6 @@
 		(layer "B.Cu")
 		(net 1)
 		(uuid "d0bd6ab3-fd2b-4790-9298-132400e1ec84")
-	)
-	(segment
-		(start 129.609983 60)
-		(end 129.609983 59.3)
-		(width 0.7)
-		(layer "B.Cu")
-		(net 1)
-		(uuid "d4bb2e43-53eb-4924-9a61-320554e1eae9")
 	)
 	(segment
 		(start 99.609983 58)
