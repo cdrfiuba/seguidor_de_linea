@@ -1599,7 +1599,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.82 0)
+			(at 4 0 0)
 			(layer "F.Fab")
 			(uuid "27f70dfc-0fc3-4791-b55a-15e4ccb9dbae")
 			(effects
@@ -2047,7 +2047,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.82 0)
+			(at 0 -2 0)
 			(layer "F.Fab")
 			(uuid "6436030c-2062-4038-9377-b6a5e5526329")
 			(effects
@@ -2282,7 +2282,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.82 360)
+			(at 0 2 0)
 			(layer "F.Fab")
 			(uuid "e7655e29-a740-46c0-9d71-74c983305fab")
 			(effects
@@ -2457,7 +2457,7 @@
 			(uuid "93f16c9d-9095-45c6-bedf-98ebbd1aa327")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "fc3093af-3c48-4234-895b-1cf1d43f5eb4")
 			(effects
@@ -2730,7 +2730,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.82 180)
+			(at 0 -2 180)
 			(layer "F.Fab")
 			(uuid "701e2fe6-71ce-4da4-a390-b0b1c38edbda")
 			(effects
@@ -4242,7 +4242,7 @@
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor")
 		(property "Reference" "C1"
-			(at 1.25 -2.05 90)
+			(at -0.625 -1.825 90)
 			(layer "F.SilkS")
 			(uuid "a0f63314-ef07-45b9-be2c-be95ab402ae7")
 			(effects
@@ -4468,7 +4468,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.82 180)
+			(at 0 -2 180)
 			(layer "F.Fab")
 			(uuid "8726f81e-b827-4846-8883-5d1edf8b78b8")
 			(effects
@@ -4703,7 +4703,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.82 0)
+			(at 0 -2 0)
 			(layer "F.Fab")
 			(uuid "a67c2df7-24d1-4dc7-9da7-706ff80c38fd")
 			(effects
@@ -6395,7 +6395,7 @@
 			)
 		)
 		(property "Value" "TCRT5000"
-			(at 1.84 -6 90)
+			(at 1.84 4.2 90)
 			(layer "B.Fab")
 			(uuid "760f592a-a44e-46c7-ab29-0614fe38ddab")
 			(effects
@@ -11642,7 +11642,7 @@
 		(width 0.7)
 		(layer "F.Cu")
 		(net 14)
-		(uuid "7dfc5d4e-a5c1-41a6-8cbe-e88a2c43a41b")
+		(uuid "41ed27e0-c539-4ea0-a6f1-aec19b592995")
 	)
 	(segment
 		(start 137.122483 70)
@@ -11650,7 +11650,7 @@
 		(width 0.7)
 		(layer "F.Cu")
 		(net 14)
-		(uuid "b868c4ea-8a92-49c3-a59f-b1545e10e9c3")
+		(uuid "8343b312-139c-4ec0-a886-3994b3d4db97")
 	)
 	(segment
 		(start 63 60)
