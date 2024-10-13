@@ -69,4 +69,7 @@ if [ $# -ne 0 ] && [ $1 == "-f" ]; then
 	printf "\nExportando .drl y .grb .................................\n"
 	export_drl
 	export_grb
+
+	printf "\nComprimiendo .drl y .grb  -> fabrication.zip............\n"
+  zip $FABRICATION_DIRECTORY/fabrication.zip $FABRICATION_DIRECTORY/*
 fi
