@@ -1,5 +1,5 @@
 ## Script para exportar la placa a distintos formatos
-## .grb .drl .svg
+## .grb .drl .svg .step
 
 EXPORT_DIRECTORY=exports
 FABRICATION_DIRECTORY=fabrication
@@ -45,11 +45,24 @@ export_drl() {
 }
 
 export_grb(){
-  #Genero archivos .grb (Hardcodeo las layers)
+  # Genero archivos .grb (Hardcodeo las layers)
   kicad-cli pcb export gerbers --output $FABRICATION_DIRECTORY\
     --layers F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,Edge.Cuts\
     --no-protel-ext\
     modulo_sensor.kicad_pcb
+}
+
+export_step(){
+  # Genero archivos .step
+  kicad-cli pcb export step modulo_sensor.kicad_pcb\
+    --output $EXPORT_DIRECTORY/modulo_sensor.step\
+    --no-unspecified\
+    --no-dnp\
+    --drill-origin\
+    --subst-models\
+    --no-optimize-step 
+    # --include-tracks\
+    # --include-zones\
 }
 
 # Checkeo argumentos
@@ -64,6 +77,9 @@ fi
 # Ejecuto el script
 printf "Exportando SVG..........................................\n"
 export_svg
+
+printf "Exportando STEP.........................................\n"
+export_step
 
 if [ $# -ne 0 ] && [ $1 == "-f" ]; then
 	printf "\nExportando .drl y .grb .................................\n"
