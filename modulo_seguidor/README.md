@@ -13,6 +13,7 @@ Para el diseño en kicad se realizó una configuración para editar la placa com
 <img src="referencia_perfboard.png" width=100%>
 
 Las marcas de cruces representan los agujeros de la placa perforada.
+Las zonas sombreadas en los bordes tienen 5mm de ancho y representan la parte que no tiene agujeros en la placa perforada.
 Si no se puede acomodar el componente se presiona CTRL mientras se arrastra para hacer un ajuste fino.
 
 Más información al respecto en [foro de arduino](https://forum.arduino.cc/t/perfboard-circuit-design-with-kicad/1283999)
