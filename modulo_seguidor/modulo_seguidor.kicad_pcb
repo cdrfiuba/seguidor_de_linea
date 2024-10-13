@@ -1890,6 +1890,17 @@
 			(pintype "power_in")
 			(uuid "eb66d5d8-6ad8-4d53-a057-d758b55f92f7")
 		)
+		(model "${KIPRJMOD}/models/Arduino Nano.wrl"
+			(offset
+				(xyz 0 21.4 1)
+			)
+			(scale
+				(xyz 0.39 0.385 0.39)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
 	)
 	(footprint "LED_THT:LED_D5.0mm"
 		(layer "F.Cu")
