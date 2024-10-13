@@ -3521,7 +3521,7 @@
 		(uuid "1d303949-fe97-405a-b008-b5a8a47f8cae")
 	)
 	(label "PWM_IZQ"
-		(at 190.5 69.85 0)
+		(at 190.5 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3609,7 +3609,7 @@
 		(uuid "856704c3-69b2-44ca-ab90-40745994bfeb")
 	)
 	(label "Boton_encendido"
-		(at 190.5 72.39 0)
+		(at 190.5 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3664,7 +3664,7 @@
 		(uuid "bc879fd3-22fe-4bec-8a92-594f73461db1")
 	)
 	(label "PWM_DER"
-		(at 190.5 67.31 0)
+		(at 190.5 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
