@@ -19,7 +19,7 @@ Si no se puede acomodar el componente se presiona CTRL mientras se arrastra para
 Más información al respecto en [foro de arduino](https://forum.arduino.cc/t/perfboard-circuit-design-with-kicad/1283999)
 
 ## TODOs
- - Revisar las medidas de la placa (tomar en cuenta los bordes de la placa que no tienen agujeros)
+ - ~~Revisar las medidas de la placa (tomar en cuenta los bordes de la placa que no tienen agujeros)~~
  - Revisar los footprints de las resistencias y de los capacitores
- - Acomodar los componentes y hacer las conexiones
+ - ~~Acomodar los componentes y hacer las conexiones~~
  - Exportar a un modelo 3D (opcional)
