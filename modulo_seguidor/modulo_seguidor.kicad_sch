@@ -3510,7 +3510,7 @@
 		(uuid "fdc7bb77-6476-46dc-9392-491525d89292")
 	)
 	(label "Sensor1"
-		(at 190.5 67.31 0)
+		(at 190.5 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3521,7 +3521,7 @@
 		(uuid "1d303949-fe97-405a-b008-b5a8a47f8cae")
 	)
 	(label "PWM_IZQ"
-		(at 190.5 72.39 0)
+		(at 190.5 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3554,7 +3554,7 @@
 		(uuid "4a5fbb4b-78cc-4705-a20b-4b85d316c585")
 	)
 	(label "Sensor3"
-		(at 190.5 62.23 0)
+		(at 190.5 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3609,7 +3609,7 @@
 		(uuid "856704c3-69b2-44ca-ab90-40745994bfeb")
 	)
 	(label "Boton_encendido"
-		(at 190.5 52.07 0)
+		(at 190.5 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3631,7 +3631,7 @@
 		(uuid "8e78d8c4-63c3-46d9-b586-498424e109dd")
 	)
 	(label "Sensor2"
-		(at 190.5 64.77 0)
+		(at 190.5 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3653,7 +3653,7 @@
 		(uuid "bb96c76c-53bf-428c-9bd6-4fdec2a81477")
 	)
 	(label "Sensor4"
-		(at 190.5 59.69 0)
+		(at 190.5 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3664,7 +3664,7 @@
 		(uuid "bc879fd3-22fe-4bec-8a92-594f73461db1")
 	)
 	(label "PWM_DER"
-		(at 190.5 69.85 0)
+		(at 190.5 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3675,7 +3675,7 @@
 		(uuid "c1f4f7a2-d06a-44b3-a378-50660a8a6ce7")
 	)
 	(label "Sensor5"
-		(at 190.5 57.15 0)
+		(at 190.5 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3719,7 +3719,7 @@
 		(uuid "edd40024-8451-4550-a192-5679c68c5d01")
 	)
 	(label "Sensor6"
-		(at 190.5 54.61 0)
+		(at 190.5 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
