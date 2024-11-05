@@ -46,7 +46,10 @@ Boceto de la estructura del proyecto
  - ~~Hacér una bitácora~~ (subirla al repo?)
  - Agregar vista general del proyecto desde la página principal
  - ~~Agregar una lista de compras que puedan editar todos~~
+ - Terminar de Soldar placa de sensores (Ciin lo hace el jueves)
+ - Probar modulo se sensores con arduino
+ - 
 
 ## Artículos pendientes
  - 2 Capacitores 100nf (Puente H)
- - ...
+ - Diodos (Puente H) 
