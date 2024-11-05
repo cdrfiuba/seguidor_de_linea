@@ -46,10 +46,11 @@ Boceto de la estructura del proyecto
  - ~~Hacér una bitácora~~ (subirla al repo?)
  - Agregar vista general del proyecto desde la página principal
  - ~~Agregar una lista de compras que puedan editar todos~~
- - Terminar de Soldar placa de sensores (Ciin lo hace el jueves)
- - Probar modulo se sensores con arduino
+ - Terminar de Soldar/limpiar modulo de sensores chequeando continuidad (Ciin lo hace el jueves)
+ - Probar modulo se sensores con arduino (Armar código de prueba) 
  - 
 
 ## Artículos pendientes
  - 2 Capacitores 100nf (Puente H)
- - Diodos (Puente H) 
+ - 10 x Diodos 1N4007  (Puente H)
+ - 1 x Zócalo ZT16A (Zocalo 16 pines para puente H)
