@@ -10,12 +10,10 @@ Boceto de la estructura del proyecto
 .
 ├── placa_sensor
 │   ├── kicad_sch
-│   ├── kicad_pcb
-│   └── backup_files
+│   └── kicad_pcb
 ├── placa_seguidor
 │   ├── kicad_sch
-│   ├── kicad_pcb
-│   └── backup_files
+│   └── kicad_pcb
 ├── modelo
 │   └── seguidor.FCStd
 ├── include
@@ -47,4 +45,8 @@ Boceto de la estructura del proyecto
  - Hacer un diagrama tal vez de como seguir el proyecto
  - ~~Hacér una bitácora~~ (subirla al repo?)
  - Agregar vista general del proyecto desde la página principal
- - Agregar una lista de compras que puedan editar todos
+ - ~~Agregar una lista de compras que puedan editar todos~~
+
+## Artículos pendientes
+ - 2 Capacitores 100nf (Puente H)
+ - ...
