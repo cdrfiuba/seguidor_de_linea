@@ -2833,7 +2833,7 @@
 		(uuid "fe0cae89-5598-43c5-a87b-382358797f83")
 	)
 	(label "Entrada 2 Motor B"
-		(at 148.59 44.45 180)
+		(at 151.13 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2844,7 +2844,7 @@
 		(uuid "1f5207d3-3cee-4692-985e-eba236595aaa")
 	)
 	(label "Salida Regulador"
-		(at 151.13 57.15 180)
+		(at 137.16 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2954,7 +2954,7 @@
 		(uuid "f7cac021-2780-4aaf-9bdf-2ee968f41d75")
 	)
 	(label "Entrada 1 Motor B"
-		(at 137.16 35.56 180)
+		(at 148.59 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
