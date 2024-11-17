@@ -10,12 +10,10 @@ Boceto de la estructura del proyecto
 .
 ├── placa_sensor
 │   ├── kicad_sch
-│   ├── kicad_pcb
-│   └── backup_files
+│   └── kicad_pcb
 ├── placa_seguidor
 │   ├── kicad_sch
-│   ├── kicad_pcb
-│   └── backup_files
+│   └── kicad_pcb
 ├── modelo
 │   └── seguidor.FCStd
 ├── include
@@ -40,10 +38,15 @@ Boceto de la estructura del proyecto
 
 ## TODOs
  - ~~Rediseñar la placa de sensores (corregir errores) y mandar al lci~~
- - Puente H
+ - ~~Puente H~~
  - ~~Arduino Nano o ATmega328~~ y programarlo
  - ~~Comprar Placa Experimental~~
  - Elegir batería
  - Hacer un diagrama tal vez de como seguir el proyecto
  - ~~Hacér una bitácora~~ (subirla al repo?)
  - Agregar vista general del proyecto desde la página principal
+ - ~~Agregar una lista de compras que puedan editar todos~~
+
+## Artículos pendientes
+ - 2 Capacitores 100nf (Puente H)
+ - ...
