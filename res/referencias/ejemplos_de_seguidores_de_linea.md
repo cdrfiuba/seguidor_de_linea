@@ -21,3 +21,17 @@ Otro más
 ## Código
 
 https://www.youtube.com/watch?v=w3bE3ygJMx8
+
+
+## Puente H
+
+Cómo usar un driver L298N
+
+https://youtu.be/c0L4gNKwjRw?si=vZ1mv0ccFuuH0b-6
+
+
+
+Esquemático de un driver genérico con L298N
+
+https://newscrewdriver.com/2021/01/28/circuit-schematic-of-generic-l298n-driver-board/
+![](https://newscrewdriver.com/wp-content/uploads/2021/01/l298n-module-schematic-16x9-1.jpg)
