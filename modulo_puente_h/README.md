@@ -4,7 +4,6 @@ Este módulo se encarga de controlar los motores a partir de las entradas recibi
 
 Las pistas azules representan conexiones físicas cableadas por nosotros ya que el diseño no es posible en una placa simple faz.
 
-![Front preview de la placa]() 
 <img src="exports/modulo_puente_h.svg" width=100%>
 
 ## TODOs
