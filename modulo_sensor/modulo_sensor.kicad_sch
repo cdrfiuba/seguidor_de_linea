@@ -4058,7 +4058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
+		(property "Footprint" "TCRT5000:OPTO_TCRT5000_ancho"
 			(at 167.64 54.61 0)
 			(effects
 				(font
@@ -4537,7 +4537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
+		(property "Footprint" "TCRT5000:OPTO_TCRT5000_ancho"
 			(at 209.55 54.61 0)
 			(effects
 				(font
@@ -6075,7 +6075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
+		(property "Footprint" "TCRT5000:OPTO_TCRT5000_ancho"
 			(at 77.47 54.61 0)
 			(effects
 				(font
@@ -6482,7 +6482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
+		(property "Footprint" "TCRT5000:OPTO_TCRT5000_ancho"
 			(at 251.46 54.61 0)
 			(effects
 				(font
@@ -6689,7 +6689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
+		(property "Footprint" "TCRT5000:OPTO_TCRT5000_ancho"
 			(at 120.65 54.61 0)
 			(effects
 				(font
@@ -7296,7 +7296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TCRT5000:OPTO_TCRT5000"
+		(property "Footprint" "TCRT5000:OPTO_TCRT5000_ancho"
 			(at 33.02 54.61 0)
 			(effects
 				(font
