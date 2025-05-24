@@ -3788,6 +3788,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 50.8) (xy 142.24 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c9683b3-1ff9-4f4f-913b-d9776ffcd9bd")
+	)
+	(wire
+		(pts
 			(xy 109.22 129.54) (xy 113.03 129.54)
 		)
 		(stroke
@@ -3838,13 +3848,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 55.88) (xy 142.24 55.88)
+			(xy 59.69 138.43) (xy 64.77 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17b14a1c-cadc-4ccc-a70c-92f96e79e150")
+		(uuid "15b87e65-3f1a-477e-81d7-1d4e52aa7116")
 	)
 	(wire
 		(pts
@@ -3865,6 +3875,16 @@
 			(type default)
 		)
 		(uuid "1b827005-f643-4d85-ab99-7663dc08650c")
+	)
+	(wire
+		(pts
+			(xy 59.69 135.89) (xy 64.77 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd210e2-4448-45a0-b786-b5fe210c5647")
 	)
 	(wire
 		(pts
@@ -3998,16 +4018,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 58.42) (xy 142.24 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32d015bc-128f-4d39-833c-f81ed61db515")
-	)
-	(wire
-		(pts
 			(xy 125.73 157.48) (xy 125.73 154.94)
 		)
 		(stroke
@@ -4078,26 +4088,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 53.34) (xy 142.24 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "453aec17-86d1-41e7-be8d-8d3cc6fcf8de")
-	)
-	(wire
-		(pts
-			(xy 63.5 135.89) (xy 64.77 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "454f8bad-dec3-4deb-8c04-d2bed3b5e0a8")
-	)
-	(wire
-		(pts
 			(xy 80.01 167.64) (xy 80.01 166.37)
 		)
 		(stroke
@@ -4118,16 +4108,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 146.05) (xy 64.77 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bf49f41-89f5-4c11-ae78-eb9dd7311638")
-	)
-	(wire
-		(pts
 			(xy 135.89 173.99) (xy 137.16 173.99)
 		)
 		(stroke
@@ -4135,16 +4115,6 @@
 			(type default)
 		)
 		(uuid "4d0504a7-0e6b-486f-8496-5e4470e3f46d")
-	)
-	(wire
-		(pts
-			(xy 63.5 138.43) (xy 64.77 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ef780d2-049e-409d-859e-a03d329037ad")
 	)
 	(wire
 		(pts
@@ -4318,6 +4288,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 55.88) (xy 142.24 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e72cfc8-3d37-4325-82f9-c4bc2d348a06")
+	)
+	(wire
+		(pts
 			(xy 41.91 39.37) (xy 41.91 36.83)
 		)
 		(stroke
@@ -4325,6 +4305,16 @@
 			(type default)
 		)
 		(uuid "6eb32451-fd68-48f4-ac88-4f3378a89664")
+	)
+	(wire
+		(pts
+			(xy 59.69 146.05) (xy 64.77 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f3e4c08-a761-40f4-be46-8f307f069002")
 	)
 	(wire
 		(pts
@@ -4445,16 +4435,6 @@
 			(type default)
 		)
 		(uuid "94f80ae7-0a0c-4074-87eb-2aae26b1f73a")
-	)
-	(wire
-		(pts
-			(xy 139.7 50.8) (xy 142.24 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95934ea7-ebee-463b-ba35-0e36c79c4a7c")
 	)
 	(wire
 		(pts
@@ -4788,6 +4768,26 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 53.34) (xy 142.24 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c648b5e2-3fd0-43af-a50b-26105e768bd1")
+	)
+	(wire
+		(pts
+			(xy 59.69 148.59) (xy 64.77 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9afb3bf-27b4-4a0d-b8c4-ca5169d53a21")
+	)
+	(wire
+		(pts
 			(xy 137.16 120.65) (xy 135.89 120.65)
 		)
 		(stroke
@@ -4898,16 +4898,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 148.59) (xy 63.5 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e442c5b1-58ca-4440-af3b-4b853abf7db0")
-	)
-	(wire
-		(pts
 			(xy 72.39 41.91) (xy 72.39 43.18)
 		)
 		(stroke
@@ -4988,6 +4978,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 58.42) (xy 142.24 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f87e3aec-84fc-4c21-b00e-e90ecaac9baf")
+	)
+	(wire
+		(pts
 			(xy 139.7 40.64) (xy 142.24 40.64)
 		)
 		(stroke
@@ -5006,36 +5006,6 @@
 		)
 		(uuid "1d303949-fe97-405a-b008-b5a8a47f8cae")
 	)
-	(label "Entrada DIG Motor A"
-		(at 139.7 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "282086fc-fb1c-4155-86c5-148685892fc0")
-	)
-	(label "Entrada PWM Motor B"
-		(at 139.7 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2cd204f3-7387-41d8-bed4-23302f8eeaf1")
-	)
-	(label "Entrada DIG Motor B"
-		(at 63.5 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "46179523-b260-4804-8279-4fb9946bfe89")
-	)
 	(label "Sensor3"
 		(at 237.49 36.83 180)
 		(effects
@@ -5045,16 +5015,6 @@
 			(justify right bottom)
 		)
 		(uuid "4a5fbb4b-78cc-4705-a20b-4b85d316c585")
-	)
-	(label "Entrada PWM Motor A"
-		(at 63.5 135.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4ea35da3-ab43-4740-ac33-ac380fea7a11")
 	)
 	(label "Sensor3"
 		(at 139.7 40.64 180)
@@ -5086,16 +5046,6 @@
 		)
 		(uuid "79149cbe-7b70-44cf-8b14-5189f2c0e4e6")
 	)
-	(label "Entrada DIG Motor A"
-		(at 63.5 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "805e6499-b36d-46f9-8283-b91cc906c327")
-	)
 	(label "Sensor1"
 		(at 237.49 31.75 180)
 		(effects
@@ -5126,16 +5076,6 @@
 		)
 		(uuid "8e78d8c4-63c3-46d9-b586-498424e109dd")
 	)
-	(label "Entrada PWM Motor B"
-		(at 63.5 146.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a7ed2e76-678f-41a7-9455-d4bc41fddaf3")
-	)
 	(label "Sensor2"
 		(at 139.7 38.1 180)
 		(effects
@@ -5156,16 +5096,6 @@
 		)
 		(uuid "bc879fd3-22fe-4bec-8a92-594f73461db1")
 	)
-	(label "Entrada PWM Motor A"
-		(at 139.7 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c1f4f7a2-d06a-44b3-a378-50660a8a6ce7")
-	)
 	(label "Sensor5"
 		(at 139.7 45.72 180)
 		(effects
@@ -5185,16 +5115,6 @@
 			(justify right bottom)
 		)
 		(uuid "da2eda4e-9536-4879-a82c-681b42eb8fb4")
-	)
-	(label "Entrada DIG Motor B"
-		(at 139.7 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "da7eb719-52b8-47f2-924f-d2dc9fff8b87")
 	)
 	(label "Salida Regulador"
 		(at 50.8 66.04 0)
@@ -5225,6 +5145,73 @@
 			(justify right bottom)
 		)
 		(uuid "f761fc01-13da-477b-b487-f32ee7ccea06")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 54.61 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "005c8944-0e09-45cc-942a-b27eb093418e")
+		(property "Reference" "J2"
+			(at 55.245 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Motor A Entradas"
+			(at 45.212 135.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 54.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 54.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7306a1de-6b7c-4f83-827d-e8ced22278f9")
+		)
+		(pin "2"
+			(uuid "02536bff-bf10-4425-ae5a-a864aca84773")
+		)
+		(instances
+			(project "modulo_seguidor"
+				(path "/506ff443-80b5-4c22-9098-af8632a73945"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -5426,6 +5413,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 125.73 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b19a939-869a-4ef0-8a3f-e782ba8aaa59")
+		(property "Reference" "J4"
+			(at 122.936 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Motor A Salidas"
+			(at 116.332 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f3707d3-d3b6-47d1-a331-d5200147fcda")
+		)
+		(pin "2"
+			(uuid "6b14b51e-fc6a-4af5-912b-40125cea4aa7")
+		)
+		(instances
+			(project "modulo_seguidor"
+				(path "/506ff443-80b5-4c22-9098-af8632a73945"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 125.73 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ee04b3c-99f8-4f13-9d4c-56bef13f49b3")
+		(property "Reference" "J5"
+			(at 122.936 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Motor B Salidas"
+			(at 116.332 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 125.73 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 125.73 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "605723de-8689-4e4e-803e-d882187105cf")
+		)
+		(pin "2"
+			(uuid "552329b2-7886-4210-8582-21c5aa57d29c")
+		)
+		(instances
+			(project "modulo_seguidor"
+				(path "/506ff443-80b5-4c22-9098-af8632a73945"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 53.34 167.64 270)
 		(unit 1)
@@ -5511,7 +5632,7 @@
 			)
 		)
 		(property "Value" "Salida Regulador"
-			(at 60.452 141.224 90)
+			(at 60.706 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9076,6 +9197,73 @@
 			(project ""
 				(path "/506ff443-80b5-4c22-9098-af8632a73945"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 54.61 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f304c7cc-632d-44be-9843-43228f0a0551")
+		(property "Reference" "J3"
+			(at 63.5 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Motor B Entradas"
+			(at 45.974 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 54.61 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 54.61 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eff4ae72-79d9-47a8-b6b0-08f9792829e9")
+		)
+		(pin "2"
+			(uuid "b08bd1d4-dfec-4855-b34b-f8fb24ea881c")
+		)
+		(instances
+			(project "modulo_seguidor"
+				(path "/506ff443-80b5-4c22-9098-af8632a73945"
+					(reference "J3")
 					(unit 1)
 				)
 			)
