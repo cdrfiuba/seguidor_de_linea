@@ -3838,6 +3838,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 55.88) (xy 142.24 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17b14a1c-cadc-4ccc-a70c-92f96e79e150")
+	)
+	(wire
+		(pts
 			(xy 237.49 44.45) (xy 241.3 44.45)
 		)
 		(stroke
@@ -3988,13 +3998,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 53.34) (xy 142.24 53.34)
+			(xy 139.7 58.42) (xy 142.24 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32d3c847-cd9c-4f9f-a9bf-8930c6e33aee")
+		(uuid "32d015bc-128f-4d39-833c-f81ed61db515")
 	)
 	(wire
 		(pts
@@ -4068,6 +4078,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 53.34) (xy 142.24 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "453aec17-86d1-41e7-be8d-8d3cc6fcf8de")
+	)
+	(wire
+		(pts
 			(xy 63.5 135.89) (xy 64.77 135.89)
 		)
 		(stroke
@@ -4095,16 +4115,6 @@
 			(type default)
 		)
 		(uuid "469a3914-b541-4763-9cdc-3547230605f2")
-	)
-	(wire
-		(pts
-			(xy 139.7 50.8) (xy 142.24 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47da4ab6-5e14-466b-b788-5ddd2b74d104")
 	)
 	(wire
 		(pts
@@ -4328,16 +4338,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 55.88) (xy 142.24 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73b3ed31-9a38-47f5-8da2-15e8c9b3836b")
-	)
-	(wire
-		(pts
 			(xy 114.3 139.7) (xy 113.03 139.7)
 		)
 		(stroke
@@ -4445,6 +4445,16 @@
 			(type default)
 		)
 		(uuid "94f80ae7-0a0c-4074-87eb-2aae26b1f73a")
+	)
+	(wire
+		(pts
+			(xy 139.7 50.8) (xy 142.24 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95934ea7-ebee-463b-ba35-0e36c79c4a7c")
 	)
 	(wire
 		(pts
@@ -4918,16 +4928,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 58.42) (xy 142.24 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7f2b90c-9f83-4738-85b5-c02718c03b83")
-	)
-	(wire
-		(pts
 			(xy 102.87 180.34) (xy 125.73 180.34)
 		)
 		(stroke
@@ -5007,7 +5007,7 @@
 		(uuid "1d303949-fe97-405a-b008-b5a8a47f8cae")
 	)
 	(label "Entrada DIG Motor A"
-		(at 139.7 55.88 180)
+		(at 139.7 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5017,7 +5017,7 @@
 		(uuid "282086fc-fb1c-4155-86c5-148685892fc0")
 	)
 	(label "Entrada PWM Motor B"
-		(at 139.7 53.34 180)
+		(at 139.7 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5157,7 +5157,7 @@
 		(uuid "bc879fd3-22fe-4bec-8a92-594f73461db1")
 	)
 	(label "Entrada PWM Motor A"
-		(at 139.7 58.42 180)
+		(at 139.7 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5187,7 +5187,7 @@
 		(uuid "da2eda4e-9536-4879-a82c-681b42eb8fb4")
 	)
 	(label "Entrada DIG Motor B"
-		(at 139.7 50.8 180)
+		(at 139.7 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
