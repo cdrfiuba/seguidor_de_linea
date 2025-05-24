@@ -58,3 +58,5 @@ Boceto de la estructura del proyecto
  - 4 Capacitores 100nf (Puente H)
  - 8 x Diodos Schottsky 1N4007  (Puente H)
  - 1R de 1K y 1 de 330 SMD (1206)
+ - 1 (+1) 74HC14 Schmitt Trigger THT
+ - 2 DIP14
