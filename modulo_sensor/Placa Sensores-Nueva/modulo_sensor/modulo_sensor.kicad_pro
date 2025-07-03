@@ -37,7 +37,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
+          "drill": 0.8,
           "height": 1.8,
           "width": 2.4
         },
@@ -506,10 +506,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "fabrication/",
+      "plot": "../../../../../../../Downloads/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "modulo_sensor.step",
       "svg": "",
       "vrml": ""
     },
