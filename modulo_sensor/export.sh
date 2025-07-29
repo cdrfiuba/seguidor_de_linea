@@ -65,6 +65,15 @@ export_step(){
     # --include-zones\
 }
 
+export_pdf() {
+  kicad-cli pcb export pdf modulo_sensor.kicad_pcb\
+    --output $EXPORT_DIRECTORY\
+    --layers F.Cu,B.Cu\
+    --black-and-white\
+    --mode-separate
+    # --drill-shape-opt 1\
+}
+
 # Checkeo argumentos
 if [[ $# -ne 0 && $1 == @(-h|--help) ]]; then
 	print_help
@@ -78,8 +87,12 @@ fi
 printf "Exportando SVG..........................................\n"
 export_svg
 
+printf "Exportando PDF..........................................\n"
+export_pdf
+
 printf "Exportando STEP.........................................\n"
 export_step
+
 
 if [ $# -ne 0 ] && [ $1 == "-f" ]; then
 	printf "\nExportando .drl y .grb .................................\n"
