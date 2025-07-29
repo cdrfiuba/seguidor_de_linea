@@ -87,8 +87,12 @@ fi
 printf "Exportando SVG..........................................\n"
 export_svg
 
-printf "Exportando PDF..........................................\n"
-export_pdf
+
+if [ $# -ne 0 ] && [ $1 == "-p" ]; then
+  printf "Exportando PDF..........................................\n"
+  export_pdf
+fi
+
 
 printf "Exportando STEP.........................................\n"
 export_step
