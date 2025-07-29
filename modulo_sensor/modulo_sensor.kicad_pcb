@@ -10370,6 +10370,7 @@
 			(units 3)
 			(units_format 1)
 			(precision 4)
+			(suppress_zeroes yes)
 		)
 		(style
 			(thickness 0.1)
@@ -10380,7 +10381,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "21,9000 mm"
+		(gr_text "21,9 mm"
 			(at 132.748192 28.285 0)
 			(layer "Dwgs.User")
 			(uuid "04c64945-afe0-4248-b832-747ea1b144ee")
@@ -10406,6 +10407,7 @@
 			(units 3)
 			(units_format 1)
 			(precision 4)
+			(suppress_zeroes yes)
 		)
 		(style
 			(thickness 0.1)
@@ -10416,7 +10418,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "10,1000 mm"
+		(gr_text "10,1 mm"
 			(at 68.888209 26.885 0)
 			(layer "Dwgs.User")
 			(uuid "0577169d-7b58-4bc3-beb3-8526a5db23cb")
@@ -10442,6 +10444,7 @@
 			(units 3)
 			(units_format 1)
 			(precision 4)
+			(suppress_zeroes yes)
 		)
 		(style
 			(thickness 0.1)
@@ -10452,7 +10455,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "16,0000 mm"
+		(gr_text "16 mm"
 			(at 100.748192 27.785 0)
 			(layer "Dwgs.User")
 			(uuid "99e3621a-34c3-4f97-be29-0c591051f6f3")
@@ -10478,6 +10481,7 @@
 			(units 3)
 			(units_format 1)
 			(precision 4)
+			(suppress_zeroes yes)
 		)
 		(style
 			(thickness 0.1)
@@ -10488,8 +10492,8 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "20,0000 mm"
-			(at 100.748192 25.285 0)
+		(gr_text "20 mm"
+			(at 100.748192 25.5 0)
 			(layer "Dwgs.User")
 			(uuid "e6d5246c-7a71-4a04-afcc-854b98cda108")
 			(effects
@@ -10507,7 +10511,7 @@
 		(pts
 			(xy 50.4444 61.508) (xy 150.4444 61.508)
 		)
-		(height 24.4456)
+		(height 3.992)
 		(orientation 0)
 		(format
 			(prefix "")
@@ -10515,18 +10519,19 @@
 			(units 3)
 			(units_format 1)
 			(precision 4)
+			(suppress_zeroes yes)
 		)
 		(style
 			(thickness 0.05)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
 			(arrow_direction outward)
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "100,0000 mm"
-			(at 100.4444 84.8036 0)
+		(gr_text "100 mm"
+			(at 116 66 0)
 			(layer "Dwgs.User")
 			(uuid "2f3213b6-3bfa-4cce-b457-58f03776d5fe")
 			(effects
@@ -10544,7 +10549,7 @@
 		(pts
 			(xy 50.546 35.8648) (xy 56.896 35.9664)
 		)
-		(height -16.002)
+		(height -8.5344)
 		(orientation 0)
 		(format
 			(prefix "")
@@ -10552,6 +10557,7 @@
 			(units 3)
 			(units_format 1)
 			(precision 4)
+			(suppress_zeroes yes)
 		)
 		(style
 			(thickness 0.1)
@@ -10562,8 +10568,8 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "6,3500 mm"
-			(at 53.721 18.7128 0)
+		(gr_text "6,35 mm"
+			(at 53.721 26.1804 0)
 			(layer "Dwgs.User")
 			(uuid "4faa14a5-bd8d-4a89-a26d-bd4776404b03")
 			(effects
@@ -10581,7 +10587,7 @@
 		(pts
 			(xy 143.9576 37.2872) (xy 150.5712 37.7444)
 		)
-		(height -15.5448)
+		(height -10.2872)
 		(orientation 0)
 		(format
 			(prefix "")
@@ -10600,7 +10606,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "6,6136 mm"
-			(at 147.2644 20.5924 0)
+			(at 147.2644 25.85 0)
 			(layer "Dwgs.User")
 			(uuid "6511926a-2727-4091-a319-4ec2f4dd3b7e")
 			(effects
@@ -10618,7 +10624,7 @@
 		(pts
 			(xy 146.558 28.5508) (xy 146.558 63.5508)
 		)
-		(height 12.1412)
+		(height 5.442)
 		(orientation 1)
 		(format
 			(prefix "")
@@ -10626,18 +10632,19 @@
 			(units 3)
 			(units_format 1)
 			(precision 4)
+			(suppress_zeroes yes)
 		)
 		(style
 			(thickness 0.05)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
 			(arrow_direction outward)
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "35,0000 mm"
-			(at 157.5492 46.0508 90)
+		(gr_text "35 mm"
+			(at 152 46.0508 90)
 			(layer "Dwgs.User")
 			(uuid "75c472b8-b8f6-49f3-8f4b-f21021ed058d")
 			(effects
@@ -10655,7 +10662,7 @@
 		(pts
 			(xy 57.348192 28.8036) (xy 144.3736 28.8036)
 		)
-		(height -21.5554)
+		(height -4.8036)
 		(orientation 0)
 		(format
 			(prefix "")
@@ -10663,18 +10670,19 @@
 			(units 3)
 			(units_format 1)
 			(precision 4)
+			(suppress_zeroes yes)
 		)
 		(style
 			(thickness 0.05)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
 			(arrow_direction outward)
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
 		(gr_text "87,0254 mm"
-			(at 100.860896 6.0982 0)
+			(at 101 23.5 0)
 			(layer "Edge.Cuts")
 			(uuid "b793e080-05b1-4579-bea6-0492349122e2")
 			(effects

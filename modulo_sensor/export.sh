@@ -13,6 +13,7 @@ print_help() {
 export_svg() {
   # Exporto a SVG y cambio dentro de los archivos la opacidad de las zonas rellenas
   kicad-cli pcb export svg\
+    --exclude-drawing-sheet\
     --page-size-mode 2\
     --layers User.Drawings,F.Silkscreen,Edge.Cuts,F.Courtyard,F.Fab,F.Cu\
     modulo_sensor.kicad_pcb
@@ -24,6 +25,7 @@ export_svg() {
     < aux.svg > $EXPORT_DIRECTORY/front_preview.svg
 
   kicad-cli pcb export svg\
+    --exclude-drawing-sheet\
     --page-size-mode 2\
     --layers User.Drawings,B.Silkscreen,Edge.Cuts,B.Courtyard,B.Fab,B.Cu\
     modulo_sensor.kicad_pcb
