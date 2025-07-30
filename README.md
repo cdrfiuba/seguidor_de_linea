@@ -41,16 +41,22 @@ Boceto de la estructura del proyecto
  - ~~Puente H~~
  - ~~Arduino Nano o ATmega328~~ y programarlo
  - ~~Comprar Placa Experimental~~
- - Elegir batería
+ - ~~Elegir batería ~~
  - Hacer un diagrama tal vez de como seguir el proyecto
  - ~~Hacér una bitácora~~ (subirla al repo?)
- - Agregar vista general del proyecto desde la página principal
+ - Agregar pagina de documentación (KiBot)
  - ~~Agregar una lista de compras que puedan editar todos~~
- - Terminar de Soldar/limpiar modulo de sensores chequeando continuidad (Ciin lo hace el jueves)
- - Probar modulo se sensores con arduino (Armar código de prueba) 
- - 
+ - ~~Terminar de Soldar/limpiar modulo de sensores chequeando continuidad (Ciin lo hace el jueves)~~
+ - ~~Probar modulo se sensores con arduino (Armar código de prueba) ~~
+ - Comprar Resistencias, capacitores (1206), diodos schottsky, hembra y macho (90 grados)
+ - Soldar puente h anterior para probar
+ - Medir las ruedas/bandas de caucho que se usará en la compe
+ - Ajustar el modelo 3D del interior de la rueda
+ - Soldar placa
 
 ## Artículos pendientes
- - 2 Capacitores 100nf (Puente H)
- - 10 x Diodos 1N4007  (Puente H)
- - 1 x Zócalo ZT16A (Zocalo 16 pines para puente H)
+ - 4 Capacitores 100nf (Puente H)
+ - 8 x Diodos Schottsky 1N4007  (Puente H)
+ - 1R de 1K y 1 de 330 SMD (1206)
+ - 1 (+1) 74HC14 Schmitt Trigger THT
+ - 2 DIP14
