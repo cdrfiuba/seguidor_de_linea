@@ -3,6 +3,7 @@
 
 # Project settings
 modulo_sensor/fabrication
+models/*.FCBak
 
 # Temporary files
 *.000
