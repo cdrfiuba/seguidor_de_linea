@@ -13,6 +13,7 @@ print_help() {
 export_svg() {
   # Exporto a SVG y cambio dentro de los archivos la opacidad de las zonas rellenas
   kicad-cli pcb export svg\
+    --exclude-drawing-sheet\
     --page-size-mode 2\
     --layers User.Drawings,F.Silkscreen,Edge.Cuts,F.Courtyard,F.Fab,F.Cu\
     modulo_sensor.kicad_pcb
@@ -24,6 +25,7 @@ export_svg() {
     < aux.svg > $EXPORT_DIRECTORY/front_preview.svg
 
   kicad-cli pcb export svg\
+    --exclude-drawing-sheet\
     --page-size-mode 2\
     --layers User.Drawings,B.Silkscreen,Edge.Cuts,B.Courtyard,B.Fab,B.Cu\
     modulo_sensor.kicad_pcb
@@ -65,6 +67,15 @@ export_step(){
     # --include-zones\
 }
 
+export_pdf() {
+  kicad-cli pcb export pdf modulo_sensor.kicad_pcb\
+    --output $EXPORT_DIRECTORY\
+    --layers F.Cu,B.Cu\
+    --black-and-white\
+    --mode-separate
+    # --drill-shape-opt 1\
+}
+
 # Checkeo argumentos
 if [[ $# -ne 0 && $1 == @(-h|--help) ]]; then
 	print_help
@@ -78,8 +89,16 @@ fi
 printf "Exportando SVG..........................................\n"
 export_svg
 
+
+if [ $# -ne 0 ] && [ $1 == "-p" ]; then
+  printf "Exportando PDF..........................................\n"
+  export_pdf
+fi
+
+
 printf "Exportando STEP.........................................\n"
 export_step
+
 
 if [ $# -ne 0 ] && [ $1 == "-f" ]; then
 	printf "\nExportando .drl y .grb .................................\n"
