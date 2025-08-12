@@ -5002,6 +5002,16 @@
 		)
 		(uuid "1d303949-fe97-405a-b008-b5a8a47f8cae")
 	)
+	(label "Motor IZQ Arduino PWM OUTPUT"
+		(at 59.69 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "20817131-4450-414f-9641-74aafc2019c4")
+	)
 	(label "Sensor3"
 		(at 237.49 36.83 180)
 		(effects
@@ -5031,6 +5041,16 @@
 			(justify left bottom)
 		)
 		(uuid "525531f1-5063-4121-85f9-e9684aba6674")
+	)
+	(label "Motor IZQ Arduino DIG OUTPUT"
+		(at 59.69 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "54844267-cc39-4979-b189-158fb22c1081")
 	)
 	(label "Sensor2"
 		(at 237.49 34.29 180)
@@ -5112,6 +5132,16 @@
 		)
 		(uuid "c4f336ba-1630-49bd-adf7-0a79016c397f")
 	)
+	(label "Motor IZQ Arduino PWM OUTPUT"
+		(at 128.27 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d6332378-010e-4053-866a-2a5f586642db")
+	)
 	(label "Sensor5"
 		(at 237.49 41.91 180)
 		(effects
@@ -5162,72 +5192,15 @@
 		)
 		(uuid "f761fc01-13da-477b-b487-f32ee7ccea06")
 	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 54.61 138.43 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "005c8944-0e09-45cc-942a-b27eb093418e")
-		(property "Reference" "J2"
-			(at 52.832 135.382 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(label "Motor IZQ Arduino DIG OUTPUT"
+		(at 128.27 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Value" "Motor A Entradas"
-			(at 45.466 137.668 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 54.61 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 54.61 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7306a1de-6b7c-4f83-827d-e8ced22278f9")
-		)
-		(pin "2"
-			(uuid "02536bff-bf10-4425-ae5a-a864aca84773")
-		)
-		(instances
-			(project "modulo_seguidor"
-				(path "/506ff443-80b5-4c22-9098-af8632a73945"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "fe14166c-0edc-46c1-a794-1d35f7fd8f64")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -5423,73 +5396,6 @@
 			(project ""
 				(path "/506ff443-80b5-4c22-9098-af8632a73945"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 123.19 54.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b19a939-869a-4ef0-8a3f-e782ba8aaa59")
-		(property "Reference" "J4"
-			(at 120.396 54.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Motor IZQ Arduino OUTPUT"
-			(at 109.474 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 123.19 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 123.19 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f3707d3-d3b6-47d1-a331-d5200147fcda")
-		)
-		(pin "2"
-			(uuid "6b14b51e-fc6a-4af5-912b-40125cea4aa7")
-		)
-		(instances
-			(project "modulo_seguidor"
-				(path "/506ff443-80b5-4c22-9098-af8632a73945"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7883,7 +7789,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 246.38 39.37 0)
 			(effects
 				(font
