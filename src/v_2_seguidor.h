@@ -1,4 +1,4 @@
-
+#ifdef __V2__
 //Este programa decide cuanto girar, suave, medio o fuerte, segun que sensores se prende. Se fija una respuesta por cada convinacion de sensores prendidos. //
 //tiene el problema de que cuando estan todos prendidos no diferencia entre ir derecho o estar perdido////
 
@@ -17,7 +17,7 @@
 #define fuerte 255
 #define quieto 0
 
-void setup() {
+void mysetup() {
 pinMode(MOTOR_DER,OUTPUT);// motor derecho
 pinMode(MOTOR_IZQ,OUTPUT);//motor izquierdo
 pinMode(MOTOR_DER_0,OUTPUT);
@@ -31,7 +31,7 @@ pinMode(SENSOR_6,INPUT);
 delay(2000);
 }
 
-void loop() {
+void myloop() {
 
  int sensor1 = digitalRead(SENSOR_1);  
  int sensor2 = digitalRead(SENSOR_2);  
@@ -133,3 +133,4 @@ else {
 }
 
 }
+#endif

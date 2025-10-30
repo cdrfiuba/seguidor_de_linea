@@ -11,7 +11,7 @@
   */
 
 
-
+#ifdef __CARRERA__
 
 
 
@@ -41,7 +41,7 @@ float paso_multiplicador = 0.05; // paso con el que se van variando los multipli
 int velocidad_max = 150; //puede variar entre 0 y 255
 
 
-void setup() {
+void mysetup() {
   pinMode(Motor_A_pwm, OUTPUT);
   pinMode(Motor_A_Dig, OUTPUT);
   pinMode(Motor_B_pwm, OUTPUT);
@@ -59,7 +59,7 @@ void setup() {
   while(digitalRead(pulsador)); //Espera a que se accione el pulsador para comenzar a correr el código
 }
  
-void loop() {
+void myloop() {
 
   if(digitalRead(Sensor_1) == blanco) doblar_iquierda(2 * paso_multiplicador);
   if(digitalRead(Sensor_2) == blanco) doblar_iquierda(paso_multiplicador);
@@ -119,3 +119,5 @@ void doblar_derecha(float val){ //recibe un valor entre 0 y 1 que modifica el mu
     multiplicador_der = 0;
   }
 }
+
+#endif

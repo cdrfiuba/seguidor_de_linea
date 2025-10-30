@@ -9,7 +9,7 @@
   *              | | | | | | | |
   *              1 2 3 4 5 6 V GND
   */
-
+#ifdef __TEST_S__
 #define SENSORS_SIZE 6
 
 typedef enum {
@@ -63,7 +63,7 @@ struct PinsState {
 };
 
 
-void setup(){
+void mysetup(){
   Serial.begin(9600);
   for (int i = 0; i < SENSORS_SIZE; i++)
        pinMode(SENSOR_1 + i, INPUT);
@@ -71,7 +71,7 @@ void setup(){
 
 PinsState previous_state(false);
 
-void loop() {
+void myloop() {
   PinsState current_state(true);
   if (not (current_state == previous_state)) {
     previous_state = current_state;
@@ -80,3 +80,4 @@ void loop() {
   delay(100); // Reducir el delay para más precisión
 }
 
+#endif

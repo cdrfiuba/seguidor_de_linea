@@ -1,3 +1,5 @@
+#ifdef __V3__
+
 #define MOTOR_IZQ 8
 #define MOTOR_DER 9
 #define SENSOR_1 1
@@ -11,7 +13,7 @@
 int sensorPins[6] = {SENSOR_1, SENSOR_2, SENSOR_3, SENSOR_4, SENSOR_5, SENSOR_6};
 int pesos[6]      = {-5, -3, -1, 1, 3, 5};// pesos asignados a cada sensor, se los puede cambiar 
 
-void setup() {
+void mysetup() {
   Serial.begin(9600);  
 pinMode(MOTOR_DER,OUTPUT);// motor derecho
 pinMode(MOTOR_IZQ,OUTPUT);//motor izquierdo
@@ -25,7 +27,7 @@ pinMode(SENSOR_5,INPUT);
 pinMode(SENSOR_6,INPUT);
 }
 
-void loop() {
+void myloop() {
   int lectura[6];
   int sumaPesada = 0; // defino la suma d
   int sumaLecturas = 0;
@@ -73,3 +75,4 @@ void loop() {
 
   delay(50);
 }
+#endif

@@ -1,3 +1,5 @@
+#ifdef __V1__
+
 #define MOTOR_DER 9
 #define MOTOR_IZQ 8
 #define MOTOR_DER_0 11
@@ -12,7 +14,7 @@
 #define medio 200
 #define fuerte 255
 
-void setup() {
+void mysetup() {
 pinMode(MOTOR_DER,OUTPUT);// motor derecho
 pinMode(MOTOR_IZQ,OUTPUT);//motor izquierdo
 pinMode(MOTOR_DER_0,OUTPUT);
@@ -26,7 +28,7 @@ pinMode(SENSOR_6,INPUT);
 delay(2000);
 }
 
-void loop() {
+void myloop() {
 
  int sensor1 = digitalRead(SENSOR_1);  
  int sensor2 = digitalRead(SENSOR_2);  
@@ -58,3 +60,6 @@ else if (sensor3 ==LOW  && sensor4 == HIGH) {
   }
 
 }
+
+
+#endif  // __V1__
