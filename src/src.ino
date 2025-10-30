@@ -1,4 +1,4 @@
-#define __V3__
+#define __TEST_M__
 
 void myloop();
 void mysetup();
@@ -18,6 +18,10 @@ void mysetup();
 #ifdef __TEST_S__
 #include "test_sensores.h"
 #endif 
+
+#ifdef __TEST_M__
+#include "test_motores.h"
+#endif
 
 void setup() {
   mysetup();
