@@ -10,22 +10,7 @@
   *              1 2 3 4 5 6 V GND
   */
 
-
-//#include <Arduino.h> 
-
-const int Motor_A_pwm = D8;   //Motor IZquierdo
-const int Motor_A_Dig = D9;  // Motor Izquierdo
-const int Motor_B_pwm = D10;  //Motor Derecho
-const int Motor_B_Dig = D11; //Motor Derecho 
-
-const int Sensor_1 = D2;   //Extremo izquierdo
-const int Sensor_2 = D3;  //Medio izquierdo
-const int Sensor_3 = D4;  //Centro Izquierda
-const int Sensor_4 = D5;  //Centro Derecha 
-const int Sensor_5 = D6;  //Medio Derecha 1 
-const int Sensor_6 = D7;  //Extremo Derecho  2
-
-const int pulsador = D13;
+#include "pins.h"
 
 const int blanco = HIGH;
 const int negro = LOW;
@@ -38,37 +23,24 @@ int velocidad_max = 150; //puede variar entre 0 y 255
 
 
 void mysetup() {
-  pinMode(Motor_A_pwm, OUTPUT);
-  pinMode(Motor_A_Dig, OUTPUT);
-  pinMode(Motor_B_pwm, OUTPUT);
-  pinMode(Motor_B_Dig, OUTPUT);
-  
-  pinMode(Sensor_1, INPUT);
-  pinMode(Sensor_2, INPUT);
-  pinMode(Sensor_3, INPUT);
-  pinMode(Sensor_4, INPUT);
-  pinMode(Sensor_5, INPUT);
-  pinMode(Sensor_6, INPUT);
-
-  pinMode(pulsador, INPUT);
-
-  while(digitalRead(pulsador)); //Espera a que se accione el pulsador para comenzar a correr el código
+  setupSeguidorPins();
+  while(not digitalRead(PIN_BUTTON_START)); //Espera a que se accione el pulsador para comenzar a correr el código
 }
  
 void myloop() {
 
-  if(digitalRead(Sensor_1) == blanco) doblar_iquierda(2 * paso_multiplicador);
-  if(digitalRead(Sensor_2) == blanco) doblar_iquierda(paso_multiplicador);
-  if(digitalRead(Sensor_3) == blanco && digitalRead(Sensor_4) == blanco) centrar();
-  if(digitalRead(Sensor_5) == blanco) doblar_derecha(paso_multiplicador);
-  if(digitalRead(Sensor_6) == blanco) doblar_derecha(2 * paso_multiplicador);
+  if(digitalRead(PIN_SENSOR_6) == blanco) doblar_iquierda(2 * paso_multiplicador);
+  if(digitalRead(PIN_SENSOR_5) == blanco) doblar_iquierda(paso_multiplicador);
+  if(digitalRead(PIN_SENSOR_4) == blanco && digitalRead(PIN_SENSOR_3) == blanco) centrar();
+  if(digitalRead(PIN_SENSOR_2) == blanco) doblar_derecha(paso_multiplicador);
+  if(digitalRead(PIN_SENSOR_1) == blanco) doblar_derecha(2 * paso_multiplicador);
   
-  analogWrite(Motor_A_Dig, 0);
-  analogWrite(Motor_A_pwm, velocidad_max * multiplicador_der);
-  analogWrite(Motor_B_Dig, 0);
-  analogWrite(Motor_B_pwm, velocidad_max * multiplicador_izq);
+  digitalWrite(PIN_MOTOR_IZQ_DIG, LOW);
+  analogWrite(PIN_MOTOR_IZQ_PWM, velocidad_max * multiplicador_der);
+  digitalWrite(PIN_MOTOR_DER_DIG, LOW);
+  analogWrite(PIN_MOTOR_DER_PWM, velocidad_max * multiplicador_izq);
 
-  //delay(50);
+  delay(50);
 }
 
 
