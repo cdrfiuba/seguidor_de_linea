@@ -1,9 +1,9 @@
 #ifndef __SEGUIDOR_PINOUT__
 #define __SEGUIDOR_PINOUT__
 
+// MOTORES
 #define PIN_MOTOR_IZQ_DIG 2
 #define PIN_MOTOR_IZQ_PWM 3
-
 #define PIN_MOTOR_DER_DIG 9
 #define PIN_MOTOR_DER_PWM 10
 
@@ -14,11 +14,16 @@ void setupMotorPins() {
     pinMode(PIN_MOTOR_IZQ_PWM, OUTPUT);
 }
 
-#endif  // __SEGUIDOR_PINOUT__
+// SEGUIDOR
+#define PIN_BUTTON_START 12
+#define PIN_LED_INDICATOR A1
 
-#ifndef __SENSOR_PINOUT__
-#define __SENSOR_PINOUT__
+void setupSeguidorPins() {
+    pinMode(PIN_BUTTON_START, INPUT);
+    pinMode(PIN_LED_INDICATOR, OUTPUT);
+}
 
+// SENSORES
 #define PIN_SENSOR_1 A7
 #define PIN_SENSOR_2 A6
 #define PIN_SENSOR_3 A5
@@ -35,4 +40,4 @@ void setupSensorPins() {
     pinMode(PIN_SENSOR_6, INPUT);
 }
 
-#endif  // __SENSOR_PINOUT__
+#endif  //  __SEGUIDOR_PINOUT__
