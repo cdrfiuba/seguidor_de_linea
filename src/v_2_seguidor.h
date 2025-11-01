@@ -1,4 +1,3 @@
-#ifdef __V2__
 //Este programa decide cuanto girar, suave, medio o fuerte, segun que sensores se prende. Se fija una respuesta por cada convinacion de sensores prendidos. //
 //tiene el problema de que cuando estan todos prendidos no diferencia entre ir derecho o estar perdido////
 
@@ -133,4 +132,3 @@ else {
 }
 
 }
-#endif

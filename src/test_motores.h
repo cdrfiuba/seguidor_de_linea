@@ -1,6 +1,3 @@
-#define __TEST_M__
-#ifdef __TEST_M__
-
 #include "config.h"
 #include "pins.h"
 
@@ -62,5 +59,3 @@ void myloop() {
     }
     test_finished = true;
 }
-
-#endif

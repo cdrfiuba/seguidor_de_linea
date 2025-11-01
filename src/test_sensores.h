@@ -9,8 +9,6 @@
   *              | | | | | | | |
   *              1 2 3 4 5 6 V GND
   */
-#ifdef __TEST_S__
-#define SENSORS_SIZE 6
 
 typedef enum {
   SENSOR_1 = 2,
@@ -79,5 +77,3 @@ void myloop() {
   }
   delay(100); // Reducir el delay para más precisión
 }
-
-#endif

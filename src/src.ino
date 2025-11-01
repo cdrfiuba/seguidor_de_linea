@@ -3,6 +3,10 @@
 void myloop();
 void mysetup();
 
+#ifdef __CARRERA__
+#include "Codigo_Carrera.h"
+#endif
+
 #ifdef __V1__
 #include "v_1_seguidor.h"
 #endif

@@ -11,10 +11,6 @@
   */
 
 
-#ifdef __CARRERA__
-
-
-
 //#include <Arduino.h> 
 
 const int Motor_A_pwm = D8;   //Motor IZquierdo
@@ -119,5 +115,3 @@ void doblar_derecha(float val){ //recibe un valor entre 0 y 1 que modifica el mu
     multiplicador_der = 0;
   }
 }
-
-#endif

@@ -1,4 +1,3 @@
-#ifdef __V1__
 
 #define MOTOR_DER 9
 #define MOTOR_IZQ 8
@@ -60,6 +59,3 @@ else if (sensor3 ==LOW  && sensor4 == HIGH) {
   }
 
 }
-
-
-#endif  // __V1__

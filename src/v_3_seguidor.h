@@ -1,4 +1,3 @@
-#ifdef __V3__
 
 #define MOTOR_IZQ 8
 #define MOTOR_DER 9
@@ -75,4 +74,3 @@ void myloop() {
 
   delay(50);
 }
-#endif
