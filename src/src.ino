@@ -24,7 +24,7 @@ void mysetup();
 #endif
 
 #ifdef __TEST_V__
-#include "test_motores.h"
+#include "test_max_value.h"
 #endif
 
 void setup() {
