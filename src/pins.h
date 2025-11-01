@@ -14,11 +14,11 @@ void setupMotorPins() {
     pinMode(PIN_MOTOR_IZQ_PWM, OUTPUT);
 }
 
-// SEGUIDOR
+// EXTRA
 #define PIN_BUTTON_START 12
 #define PIN_LED_INDICATOR A1
 
-void setupSeguidorPins() {
+void setupExtraPins() {
     pinMode(PIN_BUTTON_START, INPUT);
     pinMode(PIN_LED_INDICATOR, OUTPUT);
 }
@@ -38,6 +38,12 @@ void setupSensorPins() {
     pinMode(PIN_SENSOR_4, INPUT);
     pinMode(PIN_SENSOR_5, INPUT);
     pinMode(PIN_SENSOR_6, INPUT);
+}
+
+void setupSeguidorPins(bool shouldSetupExtraPins = false) {
+    if (shouldSetupExtraPins) setupExtraPins();
+    setupSensorPins();
+    setupMotorPins();
 }
 
 #endif  //  __SEGUIDOR_PINOUT__
