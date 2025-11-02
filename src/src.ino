@@ -1,4 +1,4 @@
-#define __TEST_V__
+#define __V3__
 
 void myloop();
 void mysetup();

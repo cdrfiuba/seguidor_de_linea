@@ -10,7 +10,7 @@
   *              1 2 3 4 5 6 V GND
   */
 
-#define SENSORS_SIZE 6
+#include "config.h"
 #include "pins.h"
 
 // Estructura representando el estado de los 6 Sensores
@@ -23,7 +23,7 @@ struct PinsState {
 
   // Actualiza el estado de los sensores leyendo de los pines
   void read() {
-      readSensorsPins(states);
+      readSensorsPins(states, NEGRO);
   }
 
   void print() {

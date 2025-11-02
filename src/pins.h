@@ -1,6 +1,8 @@
 #ifndef __SEGUIDOR_PINOUT__
 #define __SEGUIDOR_PINOUT__
 
+#include "config.h"
+
 // MOTORES
 #define PIN_MOTOR_IZQ_DIG 2
 #define PIN_MOTOR_IZQ_PWM 3
@@ -39,17 +41,16 @@ const pin_sensor_t sensor_pins[SENSORS_SIZE] = {PIN_SENSOR_1, PIN_SENSOR_2,
                                                 PIN_SENSOR_5, PIN_SENSOR_6};
 
 void setupSensorPins() {
-    for (int i = 0; i < SENSORS_SIZE; i++)
-        pinMode(sensor_pins[i], INPUT);
+    for (int i = 0; i < SENSORS_SIZE; i++) pinMode(sensor_pins[i], INPUT);
 }
 
-void readSensorsPins(bool values[SENSORS_SIZE]) {
+void readSensorsPins(bool values[SENSORS_SIZE], bool positive = BLANCO) {
     for (int i = 0; i < SENSORS_SIZE; i++) {
         int pin = sensor_pins[i];
         if (pin == A6 or pin == A7)
-            values[i] = analogRead(pin) > 1000;
+            values[i] = analogRead(pin) > 1000 == positive;
         else
-            values[i] = digitalRead(pin);
+            values[i] = digitalRead(pin) == positive;
     }
 }
 
