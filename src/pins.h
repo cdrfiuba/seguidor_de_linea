@@ -24,22 +24,41 @@ void setupExtraPins() {
 }
 
 // SENSORES
-#define PIN_SENSOR_1 A7
-#define PIN_SENSOR_2 A6
-#define PIN_SENSOR_3 A5
-#define PIN_SENSOR_4 A4
-#define PIN_SENSOR_5 A3
-#define PIN_SENSOR_6 A2
+#define SENSORS_SIZE 6
+typedef enum {
+    PIN_SENSOR_1 = A7,
+    PIN_SENSOR_2 = A6,
+    PIN_SENSOR_3 = A5,
+    PIN_SENSOR_4 = A4,
+    PIN_SENSOR_5 = A3,
+    PIN_SENSOR_6 = A2
+} pin_sensor_t;
+
+const pin_sensor_t sensor_pins[SENSORS_SIZE] = {PIN_SENSOR_1, PIN_SENSOR_2,
+                                                PIN_SENSOR_3, PIN_SENSOR_4,
+                                                PIN_SENSOR_5, PIN_SENSOR_6};
 
 void setupSensorPins() {
-    pinMode(PIN_SENSOR_1, INPUT);
-    pinMode(PIN_SENSOR_2, INPUT);
-    pinMode(PIN_SENSOR_3, INPUT);
-    pinMode(PIN_SENSOR_4, INPUT);
-    pinMode(PIN_SENSOR_5, INPUT);
-    pinMode(PIN_SENSOR_6, INPUT);
+    for (int i = 0; i < SENSORS_SIZE; i++)
+        pinMode(sensor_pins[i], INPUT);
 }
 
+void readSensorsPins(bool values[SENSORS_SIZE]) {
+    for (int i = 0; i < SENSORS_SIZE; i++) {
+        int pin = sensor_pins[i];
+        if (pin == A6 or pin == A7)
+            values[i] = analogRead(pin) > 1000;
+        else
+            values[i] = digitalRead(pin);
+    }
+}
+
+void readSensorsPins(int values[SENSORS_SIZE]) {
+    for (int i = 0; i < SENSORS_SIZE; i++)
+        values[i] = analogRead(sensor_pins[i]);
+}
+
+// SEGUIDOR
 void setupSeguidorPins(bool shouldSetupExtraPins = false) {
     if (shouldSetupExtraPins) setupExtraPins();
     setupSensorPins();

@@ -18,19 +18,12 @@ struct PinsState {
   bool states[6];
 
   PinsState(bool must_read) : states{0} {
-    pins[0] = PIN_SENSOR_1;
-    pins[1] = PIN_SENSOR_2;
-    pins[2] = PIN_SENSOR_3;
-    pins[3] = PIN_SENSOR_4;
-    pins[4] = PIN_SENSOR_5;
-    pins[5] = PIN_SENSOR_6;
     if (must_read) this->read();
   }
 
   // Actualiza el estado de los sensores leyendo de los pines
   void read() {
-      for (int i = 0; i < SENSORS_SIZE; i++)
-        states[i] = digitalRead(pins[i]);
+      readSensorsPins(states);
   }
 
   void print() {
