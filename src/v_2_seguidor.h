@@ -16,13 +16,16 @@ void mysetup() {
     delay(2000);
 }
 
+bool states[SENSORS_SIZE];
+
 void myloop() {
-    int sensor1 = digitalRead(SENSOR_1);
-    int sensor2 = digitalRead(SENSOR_2);
-    int sensor3 = digitalRead(SENSOR_3);
-    int sensor4 = digitalRead(SENSOR_4);
-    int sensor5 = digitalRead(SENSOR_5);
-    int sensor6 = digitalRead(SENSOR_6);
+    readSensorsPins(states);
+    int sensor1 = states[0];
+    int sensor2 = states[1];
+    int sensor3 = states[2];
+    int sensor4 = states[3];
+    int sensor5 = states[4];
+    int sensor6 = states[5];
     digitalWrite(PIN_MOTOR_DER_DIG, LOW);
     digitalWrite(PIN_MOTOR_IZQ_DIG, LOW);
     ////////////////////// 0 0 0 0 0 0  ////////////////////

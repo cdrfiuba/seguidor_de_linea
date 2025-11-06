@@ -30,32 +30,31 @@ void girarDer() {
     analogWrite(PIN_MOTOR_IZQ_PWM, MAX_VALUE_MOTOR_IZQ);
 
     digitalWrite(PIN_MOTOR_DER_DIG, LOW);
-    analogWrite(PIN_MOTOR_DER_PWM, 0);
+    analogWrite(PIN_MOTOR_DER_PWM, LOW);
 }
 
 bool test_finished = false;
 
 void myloop() {
-    if (not test_finished) {
-        avanzar();
-        delay(5000);
-        frenar();
-        delay(1000);
+    if (test_finished) return;
+    avanzar();
+    delay(5000);
+    frenar();
+    delay(1000);
 
-        girarIzq();
-        delay(3000);
-        frenar();
-        delay(1000);
+    girarIzq();
+    delay(3000);
+    frenar();
+    delay(1000);
 
-        avanzar();
-        delay(5000);
-        frenar();
-        delay(1000);
+    avanzar();
+    delay(5000);
+    frenar();
+    delay(1000);
 
-        girarDer();
-        delay(3000);
-        frenar();
-        delay(1000);
-    }
+    girarDer();
+    delay(3000);
+    frenar();
+    delay(1000);
     test_finished = true;
 }
