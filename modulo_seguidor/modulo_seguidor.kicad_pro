@@ -679,7 +679,7 @@
         "uuid": "506ff443-80b5-4c22-9098-af8632a73945"
       }
     ],
-    "used_designators": "H1-12,R5-6,J2,#PWR11,#PWR13,#PWR28-29",
+    "used_designators": "SW3,H1-12,TB6612FNG1,R5-6,J2-3,#PWR11,#PWR13,#PWR15-20,#PWR28-29,U2,Mini360_Step_Down1",
     "variants": []
   },
   "sheets": [
